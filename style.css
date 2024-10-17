@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.home ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: red;
+    transition: all 0.4s;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.icon img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 20px;
+}
